@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"	android:layout_height="fill_parent">
+
+	<TextView android:id="@+id/animText" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:textSize="20dip" android:layout_alignParentTop="true"
+		android:text="@string/fadein_text" android:textStyle="bold" />
+
+	<ImageView android:id="@+id/animImage" android:src="@drawable/fireball"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		android:layout_centerInParent="true" />
+
+	<Button android:id="@+id/apply" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="@string/label_start_animation"
+		android:layout_gravity="center_horizontal" android:visibility="visible"
+		android:layout_alignParentBottom="true" android:focusable="true" android:layout_centerHorizontal="true">
+		<requestFocus />
+	</Button>
+</RelativeLayout>

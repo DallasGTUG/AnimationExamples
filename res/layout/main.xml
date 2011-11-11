@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/hello" />
+
+	<Button android:id="@+id/button_alpha" android:layout_height="40dip"
+		android:layout_width="160dip" android:text="@string/alpha_animation"
+		android:layout_gravity="center_horizontal" android:visibility="visible"
+		android:layout_marginTop="20dip" android:focusable="true">
+		<requestFocus />
+	</Button>
+	
+	<Button android:id="@+id/button_rotate" android:layout_height="40dip"
+		android:layout_width="160dip" android:text="@string/rotate_animation"
+		android:layout_gravity="center_horizontal" android:visibility="visible"
+		android:layout_marginTop="20dip" android:focusable="true">
+		<requestFocus />
+	</Button>
+	
+	<Button android:id="@+id/button_scale" android:layout_height="40dip"
+		android:layout_width="160dip" android:text="@string/scale_animation"
+		android:layout_gravity="center_horizontal" android:visibility="visible"
+		android:layout_marginTop="20dip" android:focusable="true">
+		<requestFocus />
+	</Button>
+	
+	<Button android:id="@+id/button_slide" android:layout_height="40dip"
+		android:layout_width="160dip" android:text="@string/translate_animation"
+		android:layout_gravity="center_horizontal" android:visibility="visible"
+		android:layout_marginTop="20dip" android:focusable="true">
+		<requestFocus />
+	</Button>
+	
+	<Button android:id="@+id/button_fire_ball" android:layout_height="40dip"
+		android:layout_width="160dip" android:text="@string/fireball_animation"
+		android:layout_gravity="center_horizontal" android:visibility="visible"
+		android:layout_marginTop="20dip" android:focusable="true">
+		<requestFocus />
+	</Button>
+
+</LinearLayout>

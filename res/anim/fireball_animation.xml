@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shareInterpolator="false">
+
+
+	<translate android:fromXDelta="100%" android:toXDelta="0"
+		android:duration="1000" android:interpolator="@android:anim/linear_interpolator" />
+
+
+	<set android:interpolator="@android:anim/linear_interpolator">
+		<rotate android:fromDegrees="0.0" android:toDegrees="360.0"
+			android:pivotX="50%" android:pivotY="50%" android:duration="1000"
+			android:repeatMode="restart" android:repeatCount="10" />
+
+	</set>
+
+	<set android:interpolator="@android:anim/linear_interpolator">
+		<rotate android:fromDegrees="0.0" android:toDegrees="360.0"
+			android:pivotX="50%" android:pivotY="50%" android:startOffset="1000"
+			android:duration="1000" android:repeatMode="restart"
+			android:repeatCount="10" />
+
+	</set>
+
+	<scale android:fromXScale="1" android:toXScale="2.0"
+		android:fromYScale="1" android:toYScale="2.0" android:pivotX="50%"
+		android:pivotY="50%" android:startOffset="1000" android:duration="1000"
+		android:repeatMode="reverse" android:repeatCount="10"
+		android:fillBefore="true" />
+
+
+	<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+		android:interpolator="@android:anim/accelerate_interpolator"
+		android:fromAlpha="1.0" android:toAlpha="0.0" android:duration="1000"
+		android:startOffset="10000" />
+
+	<set android:interpolator="@android:anim/linear_interpolator">
+		<rotate android:fromDegrees="0.0" android:toDegrees="360.0"
+			android:pivotX="50%" android:pivotY="50%" android:startOffset="10000"
+			android:duration="1000" />
+
+	</set>
+
+	<scale android:fromXScale="2.0" android:toXScale="0.5"
+		android:fromYScale="2.0" android:toYScale="0.5" android:pivotX="50%"
+		android:pivotY="50%" android:startOffset="10000" android:duration="1000"
+		android:repeatMode="reverse" android:repeatCount="10"
+		android:fillBefore="true" />
+
+</set>

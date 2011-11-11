@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Welcome to Android to development workshop!</string>
+    <string name="app_name">AndroidAnimation</string>
+<string name="alpha_animation">Alpha Animation</string>
+<string name="rotate_animation">Rotate Animation</string>
+<string name="scale_animation">Scale Animation</string>
+<string name="translate_animation">Translate Animation</string>
+<string name="rotate_text">Rotate Text</string>
+<string name="label_start_animation">start animation</string>
+<string name="fadein_text">Fading Text</string>
+<string name="scaling_text">Scaling Text</string>
+<string name="sliding_text">Sliding Text</string>
+<string name="fireball_text">Fireball Animation</string>
+<string name="fireball_animation">Fireball Animation</string>
+</resources>
